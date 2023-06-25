@@ -54,7 +54,6 @@ body, html {
     transition: background 0.3s ease;
 }
 
-
 .button-group {
     display: flex;
     justify-content: space-between;
@@ -73,4 +72,41 @@ body, html {
 
 .register-btn:hover {
     background: #27ae60;
+}
+
+.register-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #e67e22, #f1c40f);
+}
+
+.register-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.register-card h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.back-btn {
+    padding: 15px;
+    background: #7f8c8d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #34495e;
 }
