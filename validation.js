@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("registrationForm").addEventListener("submit", function(event) {
         var name = document.getElementById("name").value;
         var username = document.getElementById("username").value;
