@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mensaje de Amor</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffcce6;
-            text-align: center;
-            padding-top: 50px;
-        }
-
-        .message {
-            font-size: 24px;
-            color: #cc0066;
-            margin: 20px;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Creativo</title>
 </head>
 <body>
-    <div class="message">
-        <?php
-            echo "¡Eres la luz que ilumina mi corazón!";
-        ?>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Bienvenido</h1>
+            <form action="procesar_login.php" method="post">
+                <div class="input-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Iniciar Sesión</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
