@@ -20,7 +20,10 @@
                     <label for="password">Contraseña</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit" class="login-btn">Iniciar Sesión</button>
+                <div class="button-group">
+                    <button type="submit" class="login-btn">Iniciar Sesión</button>
+                    <button type="button" class="register-btn" onclick="location.href='registro.php'">Registrar</button>
+                </div>
             </form>
         </div>
     </div>

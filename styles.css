@@ -54,6 +54,23 @@ body, html {
     transition: background 0.3s ease;
 }
 
-.login-btn:hover {
-    background: #2980b9;
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-btn {
+    padding: 15px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+    background: #27ae60;
 }
