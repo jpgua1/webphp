@@ -13,7 +13,7 @@
     <div class="register-container">
         <div class="register-card">
             <h1>Registro</h1>
-            <form action="procesar_registro.php" method="post">
+            <form id="registrationForm" action="procesar_registro.php" method="post">
                 <div class="input-group">
                     <label for="name">Nombre</label>
                     <input type="text" id="name" name="name" required>
